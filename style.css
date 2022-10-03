@@ -39,10 +39,26 @@ header nav img{
     padding: 0.2em;
 }
 
-
-@media only screen and (max-width:600px){
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+section  div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid lightgray;
+    box-shadow: 2px 2px gainsboro;
+    padding: 5%;
+}
+section > div span {
+    width: 40%;
+    border-bottom: 2px solid rgb(76, 200, 200);
+    padding-top: 2%;
+}
+/* @media all and (max-width:600px){
     body{
         background-color: burlywood;
     }
 
-}
+} */
