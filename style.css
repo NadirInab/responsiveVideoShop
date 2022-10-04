@@ -6,6 +6,16 @@ body a,li {
     list-style: none;
     font-weight: bold;
 }
+body{
+    font-family:cursive;
+    font-style: italic;
+    margin-top: 0px;
+}
+/*===> Mobile First  <=== */
+
+/* extra small devices < 600px*/
+
+/*start of the Header style*/
 header nav{
     background-color: #F7F7F7;
     display: flex;
@@ -38,11 +48,11 @@ header nav img{
     font-weight: bolder;
     padding: 0.3em;
 }
+/*Start of the main section style*/
 main {
     background-color: #F7F7F7;
 }
 section{
-    background-color: 9B9A9A;
     display: flex;
     flex-wrap: wrap;
     border: 2px solid lightgray ;
@@ -67,16 +77,17 @@ section  div span,h3 {
 }
 
 .card span:nth-of-type(1){
-    color: gray ;
+    color: rgb(95, 76, 76) ;
 }
 .card span:nth-of-type(2){
-    color: lightblue;
+    color: rgb(59, 174, 212);
 }
 .card span:nth-of-type(3){
-    color: lightcoral;
+    color: rgb(244, 65, 65);
 }
 
 
+/* Medium and large devices : tablets, laptops */
 @media screen and (min-width: 769px){
     header nav {
         display: flex;
@@ -104,7 +115,7 @@ section  div span,h3 {
         justify-content: space-around;
     }
 }
-
+/*Extra large devices : large laptop and desktops */
 @media screen and  (min-width:1024px){
     body{
         background-color: white;
@@ -135,7 +146,7 @@ section  div span,h3 {
     }
 }
 
-
+/* while printing the header is undisplayed .  */
 @media  print {
     header {
         display: none;
