@@ -56,6 +56,9 @@ header nav img{
 main {
     background-color: #F7F7F7;
 }
+main h2,p{
+    padding: 0.5em;
+}
 section{
     display: flex;
     flex-wrap: wrap;
