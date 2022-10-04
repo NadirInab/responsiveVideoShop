@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 body a,li {
     text-decoration: none;
     list-style: none;
@@ -87,6 +88,7 @@ section  div span,h3 {
 }
 
 
+
 /* Medium and large devices : tablets, laptops */
 @media screen and (min-width: 769px){
     header nav {
@@ -115,10 +117,11 @@ section  div span,h3 {
         justify-content: space-around;
     }
 }
+
 /*Extra large devices : large laptop and desktops */
 @media screen and  (min-width:1024px){
     body{
-        background-color: white;
+        background-color: rgb(233, 232, 232);
     }
     header nav {
         display: flex;
